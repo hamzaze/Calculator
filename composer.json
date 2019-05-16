@@ -1,7 +1,7 @@
 {
-  "name": "hamzaze/string-calc",
+  "name": "hamzaze/Calculator",
   "description": "StringCalc is a PHP calculator library for mathematical terms (expressions) passed as strings.",
-  "keywords": ["stringcalc", "string calc", "string-calc", "math", "calculation", "term", "expression", "parser"],
+  "keywords": ["calculator", "configurator", "parser"],
   "license": "MIT",
   "authors": [
     {
