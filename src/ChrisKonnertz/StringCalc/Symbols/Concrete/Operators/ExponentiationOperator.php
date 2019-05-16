@@ -29,7 +29,16 @@ class ExponentiationOperator extends AbstractOperator
      */
     public function operate($leftNumber, $rightNumber)
     {
-        return pow($leftNumber, $rightNumber);
+        $result=pow($leftNumber, $rightNumber);
+        if(TESTMODE==1){
+            $debugString='';
+            $debugString .='pow(' . $leftNumber . ',' . $rightNumber . ')';
+            $debugString .='<br />';
+            $debugString .=$result;
+            $debugString .='<br />-------<br />';
+            echo $debugString;
+        }
+        return $result;
     }
 
 }

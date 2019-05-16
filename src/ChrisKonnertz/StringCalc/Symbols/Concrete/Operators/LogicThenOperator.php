@@ -30,10 +30,15 @@ class LogicThenOperator extends AbstractOperator
     public function operate($leftNumber, $rightNumber)
     {
         $result=$leftNumber!=0 ? $rightNumber : 0;
-        echo $leftNumber . ' ? ' . $rightNumber;
-        echo '<br />';
-        echo $result;
-        echo '<br />-------<br />';
+        if(TESTMODE==1){
+            $debugString='';
+            $debugString .=$leftNumber . ' ? ' . $rightNumber;
+            $debugString .='<br />';
+            $debugString .=$result;
+            $debugString .='<br />-------<br />';
+            echo $debugString;
+        }
+        
         return $result; 
     }
 
