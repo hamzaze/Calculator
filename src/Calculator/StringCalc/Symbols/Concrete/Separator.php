@@ -1,8 +1,8 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Symbols\Concrete;
+namespace Calculator\StringCalc\Symbols\Concrete;
 
-use ChrisKonnertz\StringCalc\Symbols\AbstractSeparator;
+use Calculator\StringCalc\Symbols\AbstractSeparator;
 
 /**
  * This class is a class that represents symbols of type "separator".

@@ -1,14 +1,14 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Container\ServiceProviders;
+namespace Calculator\StringCalc\Container\ServiceProviders;
 
-use ChrisKonnertz\StringCalc\Container\AbstractSingletonServiceProvider;
-use ChrisKonnertz\StringCalc\Symbols\SymbolContainer;
+use Calculator\StringCalc\Container\AbstractSingletonServiceProvider;
+use Calculator\StringCalc\Symbols\SymbolContainer;
 
 /**
  * This is a service provider class for the symbol container class.
  *
- * @package ChrisKonnertz\StringCalc\Container\ServiceProviders
+ * @package Calculator\StringCalc\Container\ServiceProviders
  */
 class SymbolContainerServiceProvider extends AbstractSingletonServiceProvider
 {

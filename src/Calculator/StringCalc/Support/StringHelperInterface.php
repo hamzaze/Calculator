@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Support;
+namespace Calculator\StringCalc\Support;
 
 /**
  * A class that implements this interface has to contain methods that help dealing with strings.

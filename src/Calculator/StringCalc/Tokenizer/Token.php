@@ -1,13 +1,13 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Tokenizer;
+namespace Calculator\StringCalc\Tokenizer;
 
 /**
  * The tokenizer splits a term into an array of tokens.
  * Tokens are the parts of a term or to be more precise
  * the mathematical symbols of a term.
  *
- * @package ChrisKonnertz\StringCalc\Tokenizer
+ * @package Calculator\StringCalc\Tokenizer
  */
 class Token
 {

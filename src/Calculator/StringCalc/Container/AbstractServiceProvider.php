@@ -1,14 +1,14 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Container;
+namespace Calculator\StringCalc\Container;
 
-use ChrisKonnertz\StringCalc\Exceptions\ContainerException;
+use Calculator\StringCalc\Exceptions\ContainerException;
 
 /**
  * A service provider returns a service object. In particular it creates
  * the service object by caring for its dependencies.
  *
- * @package ChrisKonnertz\StringCalc\Container
+ * @package Calculator\StringCalc\Container
  */
 abstract class AbstractServiceProvider
 {

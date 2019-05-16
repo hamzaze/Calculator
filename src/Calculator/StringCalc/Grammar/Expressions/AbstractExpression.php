@@ -1,11 +1,11 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Grammar\Expressions;
+namespace Calculator\StringCalc\Grammar\Expressions;
 
 /**
  * Abstract base class for all expression classes
  *
- * @package ChrisKonnertz\StringCalc\Grammar\Expressions
+ * @package Calculator\StringCalc\Grammar\Expressions
  */
 abstract class AbstractExpression
 {

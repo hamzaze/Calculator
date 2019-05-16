@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Tokenizer;
+namespace Calculator\StringCalc\Tokenizer;
 
 interface InputStreamInterface
 {

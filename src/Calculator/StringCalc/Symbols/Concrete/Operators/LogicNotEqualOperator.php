@@ -1,15 +1,15 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Symbols\Concrete\Operators;
+namespace Calculator\StringCalc\Symbols\Concrete\Operators;
 
-use ChrisKonnertz\StringCalc\Symbols\AbstractOperator;
+use Calculator\StringCalc\Symbols\AbstractOperator;
 
 /**
  * Operator for logical equal.
  * Example: a == b; mean that a is equal to b
  * @see https://en.wikipedia.org/wiki/Equals_Sign
  *
- * @package ChrisKonnertz\StringCalc\Symbols\Concrete\Operators
+ * @package Calculator\StringCalc\Symbols\Concrete\Operators
  */
 class LogicNotEqualOperator extends AbstractOperator
 {

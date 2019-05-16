@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Container;
+namespace Calculator\StringCalc\Container;
 
 interface ServiceProviderRegistryInterface
 {

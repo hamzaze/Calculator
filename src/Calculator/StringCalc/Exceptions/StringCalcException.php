@@ -1,11 +1,11 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Exceptions;
+namespace Calculator\StringCalc\Exceptions;
 
 /**
  * This is the base class of all custom exceptions of this library.
  *
- * @package ChrisKonnertz\StringCalc\Exceptions
+ * @package Calculator\StringCalc\Exceptions
  */
 class StringCalcException extends \Exception
 {

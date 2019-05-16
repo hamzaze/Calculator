@@ -1,11 +1,11 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Exceptions;
+namespace Calculator\StringCalc\Exceptions;
 
 /**
  * Class ParserException is thrown when something went wrong during the parsing of the term.
  *
- * @package ChrisKonnertz\StringCalc\Exceptions
+ * @package Calculator\StringCalc\Exceptions
  */
 class ParserException extends StringCalcException
 {

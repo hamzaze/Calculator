@@ -1,9 +1,9 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Container;
+namespace Calculator\StringCalc\Container;
 
-use ChrisKonnertz\StringCalc\Exceptions\ContainerException;
-use ChrisKonnertz\StringCalc\Exceptions\NotFoundException;
+use Calculator\StringCalc\Exceptions\ContainerException;
+use Calculator\StringCalc\Exceptions\NotFoundException;
 
 /**
  * This class is a PSR-11 compatible container for all the services that this library uses.
@@ -12,7 +12,7 @@ use ChrisKonnertz\StringCalc\Exceptions\NotFoundException;
  * Service containers can be replaced from outside the library so they make it easy to replace
  * classes with custom implementations.
  *
- * @package ChrisKonnertz\StringCalc\Container
+ * @package Calculator\StringCalc\Container
  */
 class Container implements ContainerInterface
 {

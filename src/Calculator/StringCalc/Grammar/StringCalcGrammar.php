@@ -1,18 +1,18 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Grammar;
+namespace Calculator\StringCalc\Grammar;
 
-use ChrisKonnertz\StringCalc\Grammar\Expressions\AndExpression;
-use ChrisKonnertz\StringCalc\Grammar\Expressions\OptionalAndExpression;
-use ChrisKonnertz\StringCalc\Grammar\Expressions\OrExpression;
-use ChrisKonnertz\StringCalc\Grammar\Expressions\RepeatedAndExpression;
-use ChrisKonnertz\StringCalc\Grammar\Expressions\SymbolExpression;
+use Calculator\StringCalc\Grammar\Expressions\AndExpression;
+use Calculator\StringCalc\Grammar\Expressions\OptionalAndExpression;
+use Calculator\StringCalc\Grammar\Expressions\OrExpression;
+use Calculator\StringCalc\Grammar\Expressions\RepeatedAndExpression;
+use Calculator\StringCalc\Grammar\Expressions\SymbolExpression;
 
 /**
  * This class represents the concrete grammar of StringCalc.
  * It also is a container for the rules that define this grammar.
  *
- * @package ChrisKonnertz\StringCalc\Grammar
+ * @package Calculator\StringCalc\Grammar
  */
 class StringCalcGrammar extends AbstractGrammar
 {

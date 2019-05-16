@@ -1,8 +1,8 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Symbols\Concrete;
+namespace Calculator\StringCalc\Symbols\Concrete;
 
-use ChrisKonnertz\StringCalc\Symbols\AbstractNumber;
+use Calculator\StringCalc\Symbols\AbstractNumber;
 
 /**
  * This class is the class that represents symbols of type "number".

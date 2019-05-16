@@ -1,8 +1,8 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Symbols;
+namespace Calculator\StringCalc\Symbols;
 
-use ChrisKonnertz\StringCalc\Exceptions\InvalidIdentifierException;
+use Calculator\StringCalc\Exceptions\InvalidIdentifierException;
 
 /**
  * This class is the base class for all symbols that are of the type "function".

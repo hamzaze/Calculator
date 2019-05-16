@@ -1,15 +1,15 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Calculator;
+namespace Calculator\StringCalc\Calculator;
 
-use ChrisKonnertz\StringCalc\Parser\Nodes\AbstractNode;
+use Calculator\StringCalc\Parser\Nodes\AbstractNode;
 
 /**
  * The calculator has one important method: calculate()
  * It takes a container node as input and returns the
  * numeric result of the calculation.
  *
- * @package ChrisKonnertz\StringCalc\Calculator
+ * @package Calculator\StringCalc\Calculator
  */
 interface CalculatorInterface
 {

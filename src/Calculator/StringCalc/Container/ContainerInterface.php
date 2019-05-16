@@ -1,9 +1,9 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Container;
+namespace Calculator\StringCalc\Container;
 
-use ChrisKonnertz\StringCalc\Exceptions\ContainerException;
-use ChrisKonnertz\StringCalc\Exceptions\NotFoundException;
+use Calculator\StringCalc\Exceptions\ContainerException;
+use Calculator\StringCalc\Exceptions\NotFoundException;
 
 /**
  * Describes the interface of a container that exposes methods to read its entries.

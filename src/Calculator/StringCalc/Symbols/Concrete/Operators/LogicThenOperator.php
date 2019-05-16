@@ -1,15 +1,15 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Symbols\Concrete\Operators;
+namespace Calculator\StringCalc\Symbols\Concrete\Operators;
 
-use ChrisKonnertz\StringCalc\Symbols\AbstractOperator;
+use Calculator\StringCalc\Symbols\AbstractOperator;
 
 /**
  * Operator for logical OR.
  * Example: if(a) b; If a condition a is true, then return b, ie. if.. then
  * @see https://en.wikipedia.org/wiki/Conditional_(computer_programming)
  *
- * @package ChrisKonnertz\StringCalc\Symbols\Concrete\Operators
+ * @package Calculator\StringCalc\Symbols\Concrete\Operators
  */
 class LogicThenOperator extends AbstractOperator
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Symbols;
+namespace Calculator\StringCalc\Symbols;
 
 /**
  * This is the parent class for both bracket types:
  * Closing and opening brackets.
  *
- * @package ChrisKonnertz\StringCalc\Symbols
+ * @package Calculator\StringCalc\Symbols
  */
 class AbstractBracket extends AbstractSymbol
 {

@@ -1,26 +1,26 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Calculator;
+namespace Calculator\StringCalc\Calculator;
 
-use ChrisKonnertz\StringCalc\Exceptions\CalculatorException;
-use ChrisKonnertz\StringCalc\Exceptions\StringCalcException;
-use ChrisKonnertz\StringCalc\Parser\Nodes\AbstractNode;
-use ChrisKonnertz\StringCalc\Parser\Nodes\ContainerNode;
-use ChrisKonnertz\StringCalc\Parser\Nodes\FunctionNode;
-use ChrisKonnertz\StringCalc\Parser\Nodes\SymbolNode;
-use ChrisKonnertz\StringCalc\Support\UtilityTrait;
-use ChrisKonnertz\StringCalc\Symbols\AbstractConstant;
-use ChrisKonnertz\StringCalc\Symbols\AbstractFunction;
-use ChrisKonnertz\StringCalc\Symbols\AbstractNumber;
-use ChrisKonnertz\StringCalc\Symbols\AbstractOperator;
-use ChrisKonnertz\StringCalc\Symbols\AbstractSeparator;
+use Calculator\StringCalc\Exceptions\CalculatorException;
+use Calculator\StringCalc\Exceptions\StringCalcException;
+use Calculator\StringCalc\Parser\Nodes\AbstractNode;
+use Calculator\StringCalc\Parser\Nodes\ContainerNode;
+use Calculator\StringCalc\Parser\Nodes\FunctionNode;
+use Calculator\StringCalc\Parser\Nodes\SymbolNode;
+use Calculator\StringCalc\Support\UtilityTrait;
+use Calculator\StringCalc\Symbols\AbstractConstant;
+use Calculator\StringCalc\Symbols\AbstractFunction;
+use Calculator\StringCalc\Symbols\AbstractNumber;
+use Calculator\StringCalc\Symbols\AbstractOperator;
+use Calculator\StringCalc\Symbols\AbstractSeparator;
 
 /**
  * The calculator has one important method: calculate()
  * It takes a container node as input and returns the
  * numeric result of the calculation.
  *
- * @package ChrisKonnertz\StringCalc\Calculator
+ * @package Calculator\StringCalc\Calculator
  */
 class Calculator implements CalculatorInterface
 {

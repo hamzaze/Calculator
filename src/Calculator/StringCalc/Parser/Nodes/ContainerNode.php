@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Parser\Nodes;
+namespace Calculator\StringCalc\Parser\Nodes;
 
 use Closure;
 
@@ -8,7 +8,7 @@ use Closure;
  * A parent node is a container for a (sorted) array of nodes.
  * Notice: Do not mix this class up with the service container class.
  *
- * @package ChrisKonnertz\StringCalc\Parser
+ * @package Calculator\StringCalc\Parser
  */
 class ContainerNode extends AbstractNode
 {

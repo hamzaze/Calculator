@@ -1,9 +1,9 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Symbols\Concrete\Functions;
+namespace Calculator\StringCalc\Symbols\Concrete\Functions;
 
-use ChrisKonnertz\StringCalc\Exceptions\NumberOfArgumentsException;
-use ChrisKonnertz\StringCalc\Symbols\AbstractFunction;
+use Calculator\StringCalc\Exceptions\NumberOfArgumentsException;
+use Calculator\StringCalc\Symbols\AbstractFunction;
 
 /**
  * PHP tanh() function aka hyperbolic tangent.

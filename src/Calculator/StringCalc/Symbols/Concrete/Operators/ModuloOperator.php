@@ -1,15 +1,15 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Symbols\Concrete\Operators;
+namespace Calculator\StringCalc\Symbols\Concrete\Operators;
 
-use ChrisKonnertz\StringCalc\Symbols\AbstractOperator;
+use Calculator\StringCalc\Symbols\AbstractOperator;
 
 /**
  * Operator for mathematical modulo operation.
  * Example: "5%3" => 2
  * @see https://en.wikipedia.org/wiki/Modulo_operation
  *
- * @package ChrisKonnertz\StringCalc\Symbols\Concrete\Operators
+ * @package Calculator\StringCalc\Symbols\Concrete\Operators
  */
 class ModuloOperator extends AbstractOperator
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Grammar;
+namespace Calculator\StringCalc\Grammar;
 
-use ChrisKonnertz\StringCalc\Grammar\Expressions\AbstractExpression;
+use Calculator\StringCalc\Grammar\Expressions\AbstractExpression;
 
 /**
  * Rule class that represents a (simplified) production rule of the grammar.
  *
- * @package ChrisKonnertz\StringCalc\Grammar
+ * @package Calculator\StringCalc\Grammar
  */
 class Rule
 {

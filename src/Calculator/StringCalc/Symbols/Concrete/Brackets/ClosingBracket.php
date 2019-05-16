@@ -1,8 +1,8 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Symbols\Concrete\Brackets;
+namespace Calculator\StringCalc\Symbols\Concrete\Brackets;
 
-use ChrisKonnertz\StringCalc\Symbols\AbstractClosingBracket;
+use Calculator\StringCalc\Symbols\AbstractClosingBracket;
 
 class ClosingBracket extends AbstractClosingBracket
 {

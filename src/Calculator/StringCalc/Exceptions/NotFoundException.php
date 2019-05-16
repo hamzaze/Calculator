@@ -1,11 +1,11 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Exceptions;
+namespace Calculator\StringCalc\Exceptions;
 
 /**
  * Class NotFoundException is thrown when something could not be found that should be available.
  *
- * @package ChrisKonnertz\StringCalc\Exceptions
+ * @package Calculator\StringCalc\Exceptions
  */
 class NotFoundException extends StringCalcException
 {

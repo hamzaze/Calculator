@@ -1,12 +1,12 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Grammar\Expressions;
+namespace Calculator\StringCalc\Grammar\Expressions;
 
 /**
  * This is a container expression. The expressions that it contains are
  * linked with an OR.
  *
- * @package ChrisKonnertz\StringCalc\Grammar\Expressions
+ * @package Calculator\StringCalc\Grammar\Expressions
  */
 class OrExpression extends AbstractContainerExpression
 {

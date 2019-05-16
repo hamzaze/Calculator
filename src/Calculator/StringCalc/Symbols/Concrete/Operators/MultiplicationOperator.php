@@ -1,15 +1,15 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Symbols\Concrete\Operators;
+namespace Calculator\StringCalc\Symbols\Concrete\Operators;
 
-use ChrisKonnertz\StringCalc\Symbols\AbstractOperator;
+use Calculator\StringCalc\Symbols\AbstractOperator;
 
 /**
  * Operator for mathematical multiplication.
  * Example: "2*3" => 6
  * @see https://en.wikipedia.org/wiki/Multiplication
  *
- * @package ChrisKonnertz\StringCalc\Symbols\Concrete\Operators
+ * @package Calculator\StringCalc\Symbols\Concrete\Operators
  */
 class MultiplicationOperator extends AbstractOperator
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Support;
+namespace Calculator\StringCalc\Support;
 
-use ChrisKonnertz\StringCalc\Exceptions\StringCalcException;
+use Calculator\StringCalc\Exceptions\StringCalcException;
 
 /**
  * This is a trait with helper methods.
  *
- * @package ChrisKonnertz\StringCalc\Support
+ * @package Calculator\StringCalc\Support
  */
 trait UtilityTrait
 {

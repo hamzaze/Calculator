@@ -1,25 +1,25 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc;
+namespace Calculator\StringCalc;
 
-use ChrisKonnertz\StringCalc\Container\Container;
-use ChrisKonnertz\StringCalc\Container\ContainerInterface;
-use ChrisKonnertz\StringCalc\Container\ServiceProviderRegistry;
-use ChrisKonnertz\StringCalc\Parser\Nodes\ContainerNode;
-use ChrisKonnertz\StringCalc\Parser\Parser;
-use ChrisKonnertz\StringCalc\Support\StringHelperInterface;
-use ChrisKonnertz\StringCalc\Symbols\AbstractSymbol;
-use ChrisKonnertz\StringCalc\Symbols\SymbolContainerInterface;
-use ChrisKonnertz\StringCalc\Tokenizer\InputStreamInterface;
-use ChrisKonnertz\StringCalc\Tokenizer\Token;
-use ChrisKonnertz\StringCalc\Tokenizer\Tokenizer;
+use Calculator\StringCalc\Container\Container;
+use Calculator\StringCalc\Container\ContainerInterface;
+use Calculator\StringCalc\Container\ServiceProviderRegistry;
+use Calculator\StringCalc\Parser\Nodes\ContainerNode;
+use Calculator\StringCalc\Parser\Parser;
+use Calculator\StringCalc\Support\StringHelperInterface;
+use Calculator\StringCalc\Symbols\AbstractSymbol;
+use Calculator\StringCalc\Symbols\SymbolContainerInterface;
+use Calculator\StringCalc\Tokenizer\InputStreamInterface;
+use Calculator\StringCalc\Tokenizer\Token;
+use Calculator\StringCalc\Tokenizer\Tokenizer;
 
 /**
  * This is the StringCalc base class. It is the API frontend of
  * the StringCalc library. Call its calculate() method to
  * calculate a mathematical term.
  *
- * @package ChrisKonnertz\StringCalc
+ * @package Calculator\StringCalc
  */
 class StringCalc
 {

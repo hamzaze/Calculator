@@ -1,16 +1,16 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Symbols;
+namespace Calculator\StringCalc\Symbols;
 
-use ChrisKonnertz\StringCalc\Exceptions\NotFoundException;
-use ChrisKonnertz\StringCalc\Exceptions\StringCalcException;
-use ChrisKonnertz\StringCalc\Support\StringHelperInterface;
-use ChrisKonnertz\StringCalc\Symbols\Concrete\Number;
+use Calculator\StringCalc\Exceptions\NotFoundException;
+use Calculator\StringCalc\Exceptions\StringCalcException;
+use Calculator\StringCalc\Support\StringHelperInterface;
+use Calculator\StringCalc\Symbols\Concrete\Number;
 
 /**
  * The symbol container manages an array with all symbol objects.
  *
- * @package ChrisKonnertz\StringCalc
+ * @package Calculator\StringCalc
  */
 class SymbolContainer implements SymbolContainerInterface
 {

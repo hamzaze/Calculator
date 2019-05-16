@@ -1,14 +1,14 @@
 <?php
 
-namespace ChrisKonnertz\StringCalc\Container\ServiceProviders;
+namespace Calculator\StringCalc\Container\ServiceProviders;
 
-use ChrisKonnertz\StringCalc\Container\AbstractSingletonServiceProvider;
-use ChrisKonnertz\StringCalc\Tokenizer\InputStream;
+use Calculator\StringCalc\Container\AbstractSingletonServiceProvider;
+use Calculator\StringCalc\Tokenizer\InputStream;
 
 /**
  * This is a service provider class for the input stream class.
  *
- * @package ChrisKonnertz\StringCalc\Container\ServiceProviders
+ * @package Calculator\StringCalc\Container\ServiceProviders
  */
 class InputStreamServiceProvider extends AbstractSingletonServiceProvider
 {
